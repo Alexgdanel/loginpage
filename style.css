@@ -2,17 +2,18 @@
     font-family: "Kanit", system-ui;
 margin: 0%;
 }
+
 .login{
-    height: 85vh;
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 3%;
+   
     background-color: black;
     border-radius: 10px;
+    height: 80vh;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 80px;
 }
 .image{
-    height: 50%;
-    margin-left: 10%;
+    margin-left: 100px;
 }
 h3{
     color: rgba(0, 255, 136, 0.678);
@@ -26,7 +27,7 @@ h3{
     height: 30px;
     background-color: bisque;
     display: block;
-    margin-left: 22%;
+    margin-left: 29%;
     margin-top: 20px;
     border-radius: 10px;
     border-bottom: 2px solid rgba(0, 255, 136, 0.678);;
@@ -47,4 +48,21 @@ color: black;
 margin-top: 40px;
 text-decoration: none;
 
+}
+
+@media (max-width:480px){
+
+    .login{
+        width: 90%;
+        margin-left: 20px;
+        height: 100vh;
+        margin-top: 0px;
+    ;
+    }
+    .image{
+        margin-left: 10%;
+    }
+    .cred{
+        margin-top: 80px;
+    }
 }
